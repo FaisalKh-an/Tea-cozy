@@ -50,7 +50,7 @@ nav{
     overflow: hidden;
     margin: 1%;
 }
-h2,h4{
+h2,h4,h5{
     display: block;
     background-color: black;
     width: 100%;
@@ -92,4 +92,52 @@ figcaption{
 }
 #second > figure{
     margin: 25px;
+}
+/* -------------------------Locations--------------------------- */
+#locations{
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    left: 17.5%;
+    background-image: url('/resources/images/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2.5%;
+}
+#loc-head{
+    background-color: transparent;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 12%;
+}
+.containers{
+    width: 300px;
+    height: 290px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loc-info{
+    padding: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 15%;
+}
+/* ------------------------------footer------------------------------ */
+.contact{
+    margin: 5px 10px;
+}
+footer > p{
+    position: relative;
+    left: 20px;
 }
